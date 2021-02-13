@@ -258,10 +258,10 @@ function main() {
     document.getElementById('urlbox').style.visibility = 'visible';                            
     if (window.location.search !== '') {
         startGuest(); 
+    } else {
+        startHost();
      if (connections.length > 2) {
       connettiGuestToGuest();
     }
-    } else {
-        startHost();
     }
 }
