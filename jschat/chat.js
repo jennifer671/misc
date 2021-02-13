@@ -251,7 +251,7 @@ function startHost() {
                    ); // peer.on('call')
         }); // startWebCam
     }); // peer.on('open')
- if (connections.length > 2) {
+ if (connections.length > 1) {
       connettiGuestToGuest();
     }
 }
